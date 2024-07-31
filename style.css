@@ -29,8 +29,12 @@ html,body{
 
 }
 .line h2{
-    font-size:6.5vw;
+    font-size:4.9vw;
     font-weight: 800;
+    /* animation-name:anime; */
+    opacity: 0;
+    animation-duration:1.6s;
+    animation-iteration-count: infinite;
 }
 .line{
     /* background-color: red; */
@@ -55,7 +59,7 @@ html,body{
     text-align:right;
 }
 #line1-part1 h5,#line1-part1 h6{
-    font-size: 2vw;
+    font-size: 3vw;
     font-family: 'Silk Serif';
     font-weight: 500;
 
@@ -66,4 +70,36 @@ html,body{
     height: 100vh;
     width: 100%;
     background-color: #151515;
+    /* background-color: red; */
+}
+@keyframes anime {
+    0%{
+        font-family: "plain light";
+        -webkit-text-stroke: 1px  white;
+        color: white;
+        font-weight: 900;
+        opacity:1;
+    }
+    48%{
+        font-family: "plain light";
+        -webkit-text-stroke: 1px  white;
+        color: white;
+        font-weight: 900;
+        opacity:0;
+    }
+    50%{
+        font-family: "silk serif";
+        -webkit-text-stroke:1px  white;
+        color: transparent;
+        font-weight: 900;
+        opacity: 1;
+    }
+    100%{
+        font-family: "silk serif";
+        -webkit-text-stroke:1px  white;
+        color: transparent;
+        font-weight: 900;
+        opacity: 0;
+    }
+    
 }
