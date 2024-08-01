@@ -147,9 +147,12 @@ html,body{
     line-height:5.8vw;
 
 }
-.hero h2 ,.hero h3{
+.hero h2 {
     font-size: 6vw;
     line-height:5.8vw;
+    border-bottom: 0.5vw solid white;
+    padding: 0.5vw;
+    transition: all ease 0.1s;
 
 }
 .hero:nth-child(2){
@@ -159,5 +162,6 @@ html,body{
     -webkit-text-stroke:2px  whitesmoke;
     color: transparent;
     font-weight: 500;
+    border-bottom: transparent;
 }
 
