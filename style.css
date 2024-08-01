@@ -14,6 +14,17 @@ html,body{
     position: relative;
     background-color: #111;
 }
+#crsr{
+    height:2.3vw;
+    width:2.3vw;
+    border-radius: 50%;
+    /* background-color: aliceblue; */
+    position: fixed;
+    z-index: 999;
+    border: 1.5px solid white;
+    mix-blend-mode: difference;
+    transform: translate(-50%,-50%);
+}
 #loader{
     height:100%;
     width: 100%;
@@ -103,3 +114,50 @@ html,body{
     }
     
 }
+#page1 #nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:10vh;
+    /* background-color: red; */
+    padding: 2.4vw 4.5vw;
+
+}
+#nav #nav-part2{
+    display: flex;
+    align-items: center;
+    gap:3vw;
+    font-weight: 500;
+}
+.hero{
+    /* background-color: red; */
+    text-transform: uppercase;
+    width:75%;
+    margin-left:25%;
+    height: fit-content;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: index 999;;
+
+}
+.hero h1{
+    font-size: 6vw;
+    line-height:5.8vw;
+
+}
+.hero h2 ,.hero h3{
+    font-size: 6vw;
+    line-height:5.8vw;
+
+}
+.hero:nth-child(2){
+    margin-top: 18vh;
+}
+.hero h2:hover{
+    -webkit-text-stroke:2px  whitesmoke;
+    color: transparent;
+    font-weight: 500;
+}
+
