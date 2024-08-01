@@ -147,12 +147,12 @@ html,body{
     line-height:5.8vw;
 
 }
-.hero h2 {
+.hero h2{
     font-size: 6vw;
     line-height:5.8vw;
     border-bottom: 0.5vw solid white;
     padding: 0.5vw;
-    transition: all ease 0.1s;
+   transition:h2 ease-in-out 0.2s;
 
 }
 .hero:nth-child(2){
